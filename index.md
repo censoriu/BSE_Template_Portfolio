@@ -47,11 +47,7 @@ For your second milestone, explain what you've worked on since your previous mil
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-For your first milestone, describe what your project is and how you plan to build it. You can include:
-- An explanation about the different components of your project and how they will all integrate together
-- Technical progress you've made so far
-- Challenges you're facing and solving in your future milestones
-- What your plan is to complete your project
+My first milestone was essentially coding a computing screen coordinates system for my international project using a mathematical equation. However, the international space tracker couldn’t be completed because the necessary files on my computer weren’t showing up. As a result, I had to start a new project which is currently a  Biodiversity and Disaster Indicator. This project involves importing data that tracks a metric over time, followed by data processing to create a time series graph, with that being said, some of the challenges I faced while working on the computing screen coordinates were the amount of changes I had to make to meet my project’s requirements, for my second milestone I will have the choropleth map with a few other modifications,
 
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
