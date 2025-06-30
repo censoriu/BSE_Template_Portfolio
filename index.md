@@ -35,11 +35,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
-- Technical details of what you've accomplished and how they contribute to the final goal
-- What has been surprising about the project so far
-- Previous challenges you faced that you overcame
-- What needs to be completed before your final milestone 
+For my second milestone, I made a interactive choropleth map in the raspberrypi using Plotly Express and cleaned the dataset with Pandas. The map shows the percentage of protected areas by country and exports to HTML. A challenge I faced during this milestone was getting the terminal on my computer to connect properly to the Raspberrypi and for the final milestone, my goal is to display the map locally without opening a web browser.
 
 # First Milestone!
 
