@@ -33,7 +33,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+[<iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>](https://youtu.be/QFi2LPr4_sY)
 
 For my second milestone, I made a interactive choropleth map in the raspberrypi using Plotly Express and cleaned the dataset with Pandas. The map shows the percentage of protected areas by country and exports to HTML. A challenge I faced during this milestone was getting the terminal on my computer to connect properly to the Raspberrypi and for the final milestone, my goal is to display the map locally without opening a web browser.
 
