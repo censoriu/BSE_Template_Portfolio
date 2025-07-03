@@ -43,16 +43,89 @@ Here's where you'll put images of your schematics. [Tinkercad](https://www.tinke
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
 ```c++
-void setup() {
-  // put your setup code here, to run once:
-  Serial.begin(9600);
-  Serial.println("Hello World!");
-}
+import os
+os.environ["QTWEBENGINE_CHROMIUM_FLAGS"] = "--no-sandbox"  # Allow PyQtWebEngine to run as root
 
-void loop() {
-  // put your main code here, to run repeatedly:
+import sys
+import pandas as pd
+import plotly.express as px
+import threading
+from PyQt5.QtWidgets import QApplication, QMainWindow, QVBoxLayout, QWidget
+from PyQt5.QtWebEngineWidgets import QWebEngineView
+from PyQt5.QtCore import QUrl
+from http.server import HTTPServer, SimpleHTTPRequestHandler
+       
 
-}
+#Load and clean data``
+df = pd.read_csv('Terrestrial_Marine protected areas.csv')
+df.columns = ['CountryID', 'Country', 'LatestYear', 'ProtectedAreasPct']
+
+#Generate and save the map
+def create_map_html():
+    fig = px.choropleth(
+        df,
+        locations="Country",
+        locationmode='country names',
+        hover_name="Country",
+        hover_data=['LatestYear', 'ProtectedAreasPct'],
+        color='ProtectedAreasPct',
+        color_continuous_scale=px.colors.sequential.YlGn,
+        title='Measuring Nature\'s Balance: Biodiversity and Disaster Indicators',
+        range_color=(0, 60)
+    )
+
+    # This line disables external topojson fetch bc plotly kept trying to get an external map
+    fig.update_geos(scope="world", showcountries=True)
+
+    fig.update_layout(
+        margin={"r": 0, "t": 30, "l": 0, "b": 0},
+        coloraxis_colorbar=dict(
+            title="% Protected",
+            thickness=20,
+            len=0.75,
+            yanchor="middle",
+            y=0.5
+        )
+    )
+
+    output_file = "protected_areas_map.html"
+    fig.write_html(output_file, include_plotlyjs='cdn', full_html=True)
+    return os.path.abspath(output_file)
+
+
+#Create PyQt window with embedded browser
+class MapWindow(QMainWindow):
+    def __init__(self, html_file):
+        super().__init__()
+        self.setWindowTitle("Protected Areas Map")
+        self.setGeometry(100, 100, 1000, 700)
+
+        self.browser = QWebEngineView()
+        
+
+        # Start a simple HTTP server in a background thread
+        def start_http_server():
+            server_address = ('', 8000)
+            httpd = HTTPServer(server_address, SimpleHTTPRequestHandler)
+            httpd.serve_forever()
+
+        threading.Thread(target=start_http_server, daemon=True).start()
+
+        self.browser.load(QUrl("http://localhost:8000/protected_areas_map.html"))
+
+        layout = QVBoxLayout()
+        layout.addWidget(self.browser)
+
+        container = QWidget()
+        container.setLayout(layout)
+        self.setCentralWidget(container)
+
+if __name__ == "__main__":
+    app = QApplication(sys.argv)
+    html_file = create_map_html()
+    window = MapWindow(html_file)
+    window.show()
+    sys.exit(app.exec_())
 ```
 
 # Bill of Materials
