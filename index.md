@@ -1,5 +1,5 @@
 # Measuring Nature balance: biodiveristy and disaster Indicator
-My project is an interactive choropleth map application that visualizes global biodiversity and natural disaster data. Built using Python with PyQt5 and a local HTTP server, it displays the map in a desktop window through a web view widget. The project is a mix of both technical and humanitarian elements, aiming to highlight disparities in environmental impact and funding across different countries for protected areas globally.
+This project is an interactive choropleth map application designed to visualize global biodiversity metrics and natural disaster data, with a particular focus on protected areas and environmental impact. The goal is to highlight disparities in ecological vulnerability and conservation funding across different countries, blending both engineering and humanities.
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
