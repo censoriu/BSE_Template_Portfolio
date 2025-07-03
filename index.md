@@ -1,5 +1,5 @@
 # Measuring Nature balance: biodiveristy and disaster Indicator
-Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
+My project is an interactive choropleth map application that visualizes global biodiversity and natural disaster data. Built using Python with PyQt5 and a local HTTP server, it displays the map in a desktop window through a web view widget. The project is a mix of both technical and humanitarian elements, aiming to highlight disparities in environmental impact and funding across different countries for protected areas globally.
 
 You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
 ```HTML 
@@ -17,16 +17,10 @@ You should comment out all portions of your portfolio that you have not complete
   
 # Final Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-For your final milestone, explain the outcome of your project. Key details to include are:
-- What you've accomplished since your previous milestone
-- What your biggest challenges and triumphs were at BSE
-- A summary of key topics you learned about
-- What you hope to learn in the future after everything you've learned at BSE
-
+For my final project, I created a window displaying a choropleth map using a local HTTP server and a web view widget to showcase biodiversity and natural disasters. One of the biggest challenges I faced at BlueStamp was dealing with various technical difficulties, especially while connecting my Raspberry Pi to my computer, which required running many commands just to get small results. My project combined engineering and humanities, aiming to raise awareness about global disparities in resources. In the future, I hope to build more tech-based projects that highlight social and environmental issues in accessible, meaningful ways
 
 
 # Second Milestone
