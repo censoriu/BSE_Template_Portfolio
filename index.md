@@ -43,11 +43,10 @@ from PyQt5.QtCore import QUrl
 from http.server import HTTPServer, SimpleHTTPRequestHandler
        
 
-#Load and clean data``
+``
 df = pd.read_csv('Terrestrial_Marine protected areas.csv')
 df.columns = ['CountryID', 'Country', 'LatestYear', 'ProtectedAreasPct']
 
-#Generate and save the map
 def create_map_html():
     fig = px.choropleth(
         df,
@@ -61,7 +60,6 @@ def create_map_html():
         range_color=(0, 60)
     )
 
-    # This line disables external topojson fetch bc plotly kept trying to get an external map
     fig.update_geos(scope="world", showcountries=True)
 
     fig.update_layout(
@@ -80,7 +78,6 @@ def create_map_html():
     return os.path.abspath(output_file)
 
 
-#Create PyQt window with embedded browser
 class MapWindow(QMainWindow):
     def __init__(self, html_file):
         super().__init__()
@@ -90,7 +87,6 @@ class MapWindow(QMainWindow):
         self.browser = QWebEngineView()
         
 
-        # Start a simple HTTP server in a background thread
         def start_http_server():
             server_address = ('', 8000)
             httpd = HTTPServer(server_address, SimpleHTTPRequestHandler)
