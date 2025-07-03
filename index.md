@@ -5,8 +5,6 @@ This project is an interactive choropleth map application designed to visualize 
 |:--:|:--:|:--:|:--:|
 | Cesar Cabral| KIPP NYC College prep high school | Enviromental Engineering | Incoming Senior
 
-**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
-
 ![Headstone Image](photo1.png)
   
 # Final Milestone
