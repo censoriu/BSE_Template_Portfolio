@@ -125,8 +125,9 @@ Don't forget to place the link of where to buy each component inside the quotati
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
 | Raspberry Pi Kit | Portable computer that controls electronic components | $103 | <a href="https://a.co/d/7lLaQ39"> Link </a> |
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| 7-inch LCD Display | Used to show the Raspberrypi interface | $45 | <a href="[https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/](https://a.co/d/0ZarYa7)"> Link </a> |
+| Mouse & Keyboard | Display navigation | $20 | <a href="[https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/](https://a.co/d/b8KkaOj)"> Link </a> |
+| USB C to USB Adapter | Used to connect LCD display to computer | $10 | <a href="[[https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/](https://a.co/d/b8KkaOj)](https://a.co/d/5N2oM5i)"> Link </a> |
 
 # Other Resources/Examples
 One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
