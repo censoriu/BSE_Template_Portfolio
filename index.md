@@ -28,7 +28,6 @@ For my second milestone, I made a interactive choropleth map in the raspberrypi 
 My first milestone was essentially coding a computing screen coordinates system for my international project using a mathematical equation. However, the international space tracker couldn’t be completed because the necessary files on my computer weren’t showing up. As a result, I had to start a new project which is currently a  Biodiversity and Disaster Indicator. This project involves importing data that tracks a metric over time, followed by data processing to create a time series graph, with that being said, some of the challenges I faced while working on the computing screen coordinates were the amount of changes I had to make to meet my project’s requirements, for my second milestone I will have the choropleth map with a few other modifications.
 
 # Code
-Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
 ```c++
 import os
