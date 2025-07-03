@@ -123,6 +123,6 @@ Don't forget to place the link of where to buy each component inside the quotati
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
 | Raspberry Pi Kit | Portable computer that controls electronic components | $103 | <a href="https://a.co/d/7lLaQ39"> Link </a> |
-| 7-inch LCD Display | Used to show the Raspberrypi interface | $45 | <a href="[[https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/](https://a.co/d/0ZarYa7)](https://www.amazon.com/dp/B09XKC53NH?ref_=cm_sw_r_cp_ud_dp_TX31X387PQ9KQDQS312H)"> Link </a> |
+| 7-inch LCD Display | Used to show the Raspberrypi interface | $45 | <a href="https://www.amazon.com/dp/B09XKC53NH?ref_=cm_sw_r_cp_ud_dp_TX31X387PQ9KQDQS312H_2"> Link </a> |
 | Mouse & Keyboard | Display navigation | $20 | <a href="[https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/](https://a.co/d/b8KkaOj)"> Link </a> |
 | USB C to USB Adapter | Used to connect LCD display to computer | $10 | <a href="[[https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/](https://a.co/d/b8KkaOj)](https://a.co/d/5N2oM5i)"> Link </a> |
