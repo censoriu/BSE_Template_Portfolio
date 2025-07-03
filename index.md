@@ -18,8 +18,7 @@ You should comment out all portions of your portfolio that you have not complete
 # Final Milestone
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
+<iframe width="699" height="393" src="https://www.youtube.com/embed/jbHwYonGaEU" title="Cesar C Milestone 3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 For my final project, I created a window displaying a choropleth map using a local HTTP server and a web view widget to showcase biodiversity and natural disasters. One of the biggest challenges I faced at BlueStamp was dealing with various technical difficulties, especially while connecting my Raspberry Pi to my computer, which required running many commands just to get small results. My project combined engineering and humanities, aiming to raise awareness about global disparities in resources. In the future, I hope to build more tech-based projects that highlight social and environmental issues in accessible, meaningful ways
 
 
