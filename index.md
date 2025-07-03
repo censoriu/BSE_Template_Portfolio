@@ -1,12 +1,6 @@
 # Measuring Nature balance: biodiveristy and disaster Indicator
 My project is an interactive choropleth map application that visualizes global biodiversity and natural disaster data. Built using Python with PyQt5 and a local HTTP server, it displays the map in a desktop window through a web view widget. The project is a mix of both technical and humanitarian elements, aiming to highlight disparities in environmental impact and funding across different countries for protected areas globally.
 
-You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
-```HTML 
-<!--- This is an HTML comment in Markdown -->
-<!--- Anything between these symbols will not render on the published site -->
-```
-
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
 | Cesar Cabral| KIPP NYC College prep high school | Enviromental Engineering | Incoming Senior
